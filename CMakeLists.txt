@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8)
-project(test)
+project(KCF)
 
 set(CMAKE_CXX_STANDARD 14)
 set(OpenCV_DIR "/usr/local/share/OpenCV")
