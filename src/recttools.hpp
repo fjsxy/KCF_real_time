@@ -35,7 +35,7 @@ the use of this software, even if advised of the possibility of such damage.
 
 #pragma once
 
-//#include <cv.h>
+#include <cv.h>
 #include <math.h>
 
 #ifndef _OPENCV_RECTTOOLS_HPP_
