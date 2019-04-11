@@ -25,24 +25,9 @@ There are no external dependencies other than OpenCV 4.0.0. Tested on a freshly 
 The runtracker.cpp in src is prepared to be used with the VOT toolkit.
 Options available:   
 
-gray - Use raw gray level features as in [1].   
-hog - Use HOG features as in [2].   
+gray - Use raw gray level features.   
+hog - Use HOG features.   
 lab - Use Lab colorspace features. This option will also enable HOG features by default.   
 singlescale - Performs single-scale detection, using a variable-size window.   
 fixed_window - Keep the window size fixed when in single-scale mode (multi-scale always used a fixed window).   
 show - Show the results in a window.
-
-### Running instructions ###
-
-The runtracker.cpp is prepared to be used with the VOT toolkit. The executable "KCF" should be called as:   
-
-./KCF [OPTION_1] [OPTION_2] [...]
-
-Options available:   
-
-gray - Use raw gray level features as in [1].   
-hog - Use HOG features as in [2].   
-lab - Use Lab colorspace features. This option will also enable HOG features by default.   
-singlescale - Performs single-scale detection, using a variable-size window.   
-fixed_window - Keep the window size fixed when in single-scale mode (multi-scale always used a fixed window).   
-show - Show the results in a window.   
