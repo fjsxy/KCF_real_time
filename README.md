@@ -15,12 +15,14 @@ Institute of Systems and Robotics - University of Coimbra / Department of Augmen
 
 ### How to use ###
 There are no external dependencies other than OpenCV 4.0.0. Tested on a freshly installed Ubuntu 16.04.
-		cd KCF_real_time
-		mkdir build
-		cd build
-		cmake ..
-		make
-		./KCF [OPTION_1] [OPTION_2] [...]
+```Bash
+cd KCF_real_time
+mkdir build
+cd build
+cmake ..
+make
+./KCF [OPTION_1] [OPTION_2] [...]
+```
 
 The runtracker.cpp in src is prepared to be used with the VOT toolkit.
 Options available:   
